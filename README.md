@@ -2,6 +2,9 @@
 
 ### Allows you to use animated custom textures in Cybergrind mode
 
+![Fireworks](https://github.com/user-attachments/assets/99ea5583-d401-458b-b752-e8600d7b7eb6)
+
+
 ## Basics
 
 ### Important note
