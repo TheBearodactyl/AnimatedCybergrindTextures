@@ -14,6 +14,11 @@ namespace AnimatedCybergrindTextures
             5.0f,
             "Timeout for a video preview loading attempt in seconds");
         
+        public static readonly ConfigEntry<bool> EnableAudio = Config.Bind("VideoPlayer",
+            "EnableAudio",
+            false,
+            "Enable audio from video files");
+        
         // Skybox
         public static readonly ConfigEntry<int> SkyboxWidth = Config.Bind("Skybox", 
             "Width",
@@ -40,10 +45,5 @@ namespace AnimatedCybergrindTextures
             "Depth",
             24,
             "Color depth used by tiles video player");
-
-        public static readonly ConfigEntry<bool> EnableAudio = Config.Bind("VideoPlayer",
-                "EnableAudio",
-                false,
-                "Enable audio from video files");
     }
 }
