@@ -20,7 +20,7 @@ namespace AnimatedCybergrindTextures.Utils
             var go = Object.Instantiate(new GameObject("AnimatedTexturesPlayer"), parent, true);
             var vp = go.AddComponent<VideoPlayer>();
             vp.isLooping = true;
-            vp.SetDirectAudioMute(0, true);
+            vp.SetDirectAudioMute(0, !Configuration.EnableAudio.Value);
             return vp;
         }
         
